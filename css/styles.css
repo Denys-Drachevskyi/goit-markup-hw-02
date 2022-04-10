@@ -1,39 +1,43 @@
 /*--------------------PAGE STUDIO-------------------------*/
 
 :root {
+    --title-text-color: #212121 ;
+    --primary-text-color: #757575;
+    --logo-text-color: #FFFFFF;
     --acent-color:#2196F3;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
+font-style: normal;
+letter-spacing: 0.03em;
 color: #212121;
+background-color: #FFFFFF;
 }
 
 .list {
 list-style: none;
-text-decoration: none;
 }
 
 .link {
     text-decoration: none;
-    color: #212121;
+    color: inherit;
 }
 
 /* ---------------------------HEADER---------------------- */
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
+    color: #000000;
 }
 
 .header-list {
 font-weight: 500;
-font-size: 16px;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
@@ -85,18 +89,20 @@ color: #757575;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-}
-
-.button {
     background-color: #2196F3;
+    cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.text-btn:hover,
+.text-btn:focus {
     background-color: #188CE8;
 }
 
 /* --------------------------ПРЕИМУЩЕСТВА ---------------------------*/
+
+.advantage-title {
+    visibility: hidden;
+}
 
 .advantage-item {
     font-weight: 700;
@@ -162,13 +168,12 @@ color: #757575;
 }
 
 .footer-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-color: #2196F3;
-text-decoration: none;
+color: #FFFFFF;
 }
 
 .footer-adress {
@@ -222,6 +227,10 @@ color: #212121;
 .text-btn-portfolio:hover,
 .text-btn-portfolio:focus {
     color:#FFFFFF;
+}
+
+.portfolio-hidden {
+    visibility: hidden;
 }
 
 .portfolio-title {
