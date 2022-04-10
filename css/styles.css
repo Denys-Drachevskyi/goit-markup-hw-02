@@ -1,0 +1,240 @@
+/*--------------------PAGE STUDIO-------------------------*/
+
+:root {
+    --acent-color:#2196F3;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+color: #212121;
+}
+
+.list {
+list-style: none;
+text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #212121;
+}
+
+/* ---------------------------HEADER---------------------- */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.header-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+
+.header-item a:hover,
+.header-item a:focus {
+   color:#2196F3;
+}
+
+.current {
+    color: var(--acent-color);
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+color: #757575;;
+}
+
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* --------------------------HERO ---------------------------*/
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.text-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #2196F3;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
+}
+
+/* --------------------------ПРЕИМУЩЕСТВА ---------------------------*/
+
+.advantage-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*--------------ЧЕМ МЫ ЗАНИМАЕМСЯ-----------------*/
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*--------------НАША КОМАНДА-----------------*/
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121
+}
+
+.team-worker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*--------------FOOTER-----------------*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+.footer-adress {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*----------------------PAGE PORTFOLIO----------------*/
+
+.btn-portfolio {
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+background-color:  #2196F3;
+}
+
+.text-btn-portfolio {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.text-btn-portfolio:hover,
+.text-btn-portfolio:focus {
+    color:#FFFFFF;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
